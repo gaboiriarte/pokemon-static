@@ -8,6 +8,7 @@ interface Props {
 }
 
 const origin = typeof window === 'undefined' ? '' : window.location.origin;
+
 export const Layout: FC<PropsWithChildren<Props>> = ({ children, title }) => {
     return (
         <>
